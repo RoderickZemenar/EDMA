@@ -7,22 +7,18 @@ h1{
   width:auto;
   height: auto;
   text-align: center;
-  font: vermin_vibes_2_edm_xtc;
+  font-family: "rumutocu";
 }
 
 h2{
   width: auto;
   height: auto;
   text-align: center;
-  font: vermin vibes 2 edm xtc;
 }
 
-img{
-  float: left;
-  width: 10%;
-  height: auto;
+a{
+  font-family: "vermin vibes 2 edm xtc";
 }
-
 .topnav {
   overflow: hidden;
 }
@@ -50,17 +46,12 @@ img{
   display:flex;
   flex-wrap: wrap;
   width:100%;
-/*   use hight with a measurement of vh, for viewport height */
   height:50%;
-/* center the flex container with margin auto and by defining a width */
   margin-right:auto;
   margin-left:auto;
 }
-/* a space between these means that every div inside of the flex-container will have these properties */
 .flex-container div{
-/*  flex-grow allows boxes to be bigger to fill space */
-  flex-grow:1;
-/* Change width based on how much space you need OR use min-width */
+  flex-grow:10;
   width:170px;
   height:170px;
 }
