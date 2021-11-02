@@ -1,99 +1,91 @@
-html{
-  background-color: #D8CCBB;
-  scroll-behavior: smooth;
-}
+<html lang="en" dir="ltr"
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Electronic Dance/Music Assistance </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-h1{
-  width:auto;
-  height: auto;
-  text-align: center;
-  font-family: "rumutocu";
-}
+  <body>
+  <img src="EDMA type.png" alt="EDMA"
+  align=left width="auto" height= "60" position=fixed>
+ </body>
 
-h2{
-  width: auto;
-  height: auto;
-  text-align: center;
-}
+ <body>
+  <div class="topnav">
+     <a href="Active"> Contact</a>
+     <a href="#About"> About</a>
+     <a href="#home"> Home</a>
+   </div>
 
-a{
-  font-family: "vermin vibes 2 edm xtc";
-}
-.topnav {
-  overflow: hidden;
-}
+   <div>
+     <h1>FEELING LIKE SHIT? </h1>
+     <h2> Well, lift your spirits with EDM!!! </h2>
+   </div>
 
-.topnav a {
-  float: right;
-  color: #29461F;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+     <div class="flex-container">
 
-.topnav a:hover{
-  background-color: #ddd;
-  color: black;
-}
+       <div class="one">
+         <p>House</p>
+       </div>
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
+       <div class="two">
+         <p>Happy Hardcore</p>
+          <img scr="DJ The Prophet.png" alt="DJ Prophet">
+       </div>
 
-.flex-container{
-  display:flex;
-  flex-wrap: wrap;
-  width:100%;
-  height:50%;
-  margin-right:auto;
-  margin-left:auto;
-}
-.flex-container div{
-  flex-grow:10;
-  width:170px;
-  height:170px;
-}
-.flex-container p{
-  text-align:center;
-  padding:10px;
-  line-height:10px;
-  vertical-align: middle;
-}
-.one{
-  background-color: #44c266;
-}
-.two{
-  background-color: #6474ea;
-}
-.three{
-  background-color: #25accf;
-}
-.four{
-  background-color: #ef723e;
-}
-.five{
-  background-color: #fe2194;
-}
-.six{
-  background-color: #f08080;
-}
-.seven{
-  background-color: #5735c9;
-}
-.eight{
-  background-color: #b4543f;
-}
-.nine{
-  background-color: #ae8c05;
-}
+       <div class="three">
+         <p>Drum and Bass</p>
+          <img scr="Drum&Bass Logo.jpg" alt="Drum and Bass">
+       </div>
 
-/* Start Media Query */
-@media only screen and (min-width:600){
-  nav{
+        <div class="four">
+         <p>Dubstep</p>
+          <img scr="phase-one.png" alt="PhaseOne">
+       </div>
 
-  }
+       <div class="five">
+         <p>Trap</p>
+          <img scr="Nico-Luminous.jpg" alt="Nico Luminous">
+       </div>
 
+       <div class="six">
+         <p>Glitch-Hop</p>
+          <img scr="inzo.jpg" alt="Inzo">
+       </div>
 
-}/* END MEDIA QUERY */
+       <div class="seven">
+         <p>Chiptune</p>
+          <img scr="Doctor-octoroc.jpg" alt="Doctor Octoroc">
+       </div>
+
+       <div class="eight">
+         <p>Future Bass</p>
+          <img scr="Future Bass" alt="Future Bass">
+       </div>
+
+       <div class="nine">
+         <p>Psytrance</p>
+          <img scr="Psytrance logo.png" alt="Psytance">
+       </div>
+     </div>
+   </body>
+   <style>
+   .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #d4a057;
+     text-align: center;
+     padding: 14px 16px;
+     font-size: 17px;
+   }
+   </style>
+   <body>
+      <div class="footer">
+       <p>Electronic Dance Music Assistance ©2021</p>
+     </div>
+
+  </body>
+</html>
