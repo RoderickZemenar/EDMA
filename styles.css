@@ -66,11 +66,12 @@ a{
 }
 .one{
   background-color: #44c266;
-  background-image: image("Cazzette.jpg");
+  background-image: url("Cazzette.jpg");
 }
 
 .two{
   background-color: #6474ea;
+  background-image: url("DJ The Prophet.png");
 }
 
 .three{
