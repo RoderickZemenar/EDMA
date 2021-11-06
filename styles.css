@@ -7,8 +7,7 @@ h1{
   width:auto;
   height: auto;
   text-align: center;
-  font-family:"rumutocu";
-  src: url(rumutocu-nMpg.ttf);
+  font-family: "rumutocu";
 }
 
 h2{
@@ -18,8 +17,8 @@ h2{
 }
 
 a{
-  font-family: "verminvibes2edmxtc-Lxx5";
-  src: url(verminvibes2edmxtc-Lxx5.ttf);
+  font-family: "vermin vibes 2 edm xtc";
+  src: url(verminvibes2edmxtxc.Lxx5.tff)
 }
 .topnav {
   overflow: hidden;
@@ -37,6 +36,8 @@ a{
 .topnav a:hover{
   background-color: #ddd;
   color: black;
+  border-top: .1px;
+  border-bottom:.1px;
 }
 
 .topnav a.active {
@@ -47,59 +48,123 @@ a{
 .flex-container{
   display:flex;
   flex-wrap: wrap;
-  width:100%;
-  height:50%;
+  width:80%;
+  height:100%;
   margin-right:auto;
   margin-left:auto;
 }
+
 .flex-container div{
   flex-grow:10;
   flex-shrink:1;
   width:170px;
   height:150px;
 }
+
 .flex-container p{
   text-align:center;
   padding:10px;
   line-height:10px;
   vertical-align: middle;
+
+  /*one is house*/
 }
-.one{
-  background-color: #44c266;
-  background-image: url("Cazzette.jpg");
+.one {
+    background-image: url(HouseMusic.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 25px;
+    position: relative;
 }
+
+/*two is Harcore*/
 
 .two{
-  background-color: #6474ea;
-  background-image: url("DJTheProphet.png");
+  background-image: url("Hardcore.jpg");
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 107%;
 }
+
+/*three is Drum and Bass*/
 
 .three{
-  background-color: #25accf;
+  background-image: url("Drum&BassLogo.jpg");
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 102% 101%;
 }
+
+/*four is Dubstep*/
 
 .four{
-  background-color: #ef723e;
+  background-image: url("Phaseone.jpg");
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
 }
+
+/*Five is Trap*/
 
 .five{
-  background-color: #fe2194;
+  background-image: url("Trap.png");
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
 }
+
+/*six is Glitch-hop*/
 
 .six{
-  background-color: #f08080;
+  background-image: url("Glitchhop.png");
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
 }
+
+/*seven is Chiptune*/
 
 .seven{
-  background-color: #5735c9;
+  background-image:url("Doctoroctoroc.jpg");
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
 }
+
+/*eight is Future Bass*/
 
 .eight{
-  background-color: #b4543f;
+  background-image: url("FutureBass.jpg");
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
 }
 
+/*nine is Psytrance*/
+
 .nine{
-  background-color: #ae8c05;
+  background-image: url("Psytrancelogo.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 25px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
 }
 
 /* Start Media Query */
