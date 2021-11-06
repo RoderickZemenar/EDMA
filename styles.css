@@ -70,7 +70,7 @@ a{
   /*one is house*/
 }
 .one {
-    background-image: url(HouseMusic.png);
+    background-image: url("HouseMusic.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border: 2px solid black;
