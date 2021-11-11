@@ -1,6 +1,5 @@
 html{
   background-color: #D8CCBB;
-  scroll-behavior: smooth;
 }
 
 h1{
@@ -12,6 +11,12 @@ h1{
 }
 
 h2{
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+h3{
   width: auto;
   height: auto;
   text-align: center;
@@ -168,13 +173,15 @@ a{
   background-size: 100% 101%;
 }
 
+/*ten is Ambient*/
+
 .ten{
   background-image: url("ambient.jpg");
   background-color: black;
   border: 2px solid black;
   padding: 2%;
   background-repeat: no-repeat;
-  background size: 100% 101%
+  background-size: 100% 101%;
 }
 .footer {
   position: inherit;
@@ -275,7 +282,7 @@ a{
     background-image: url("Psytrancelogo.png");
     background-color: black;
     border: 2px solid black;
-    padding: 2%;
+    adding: 2%;
     background-repeat: no-repeat;
     background-size: 100% 101%;
   }
@@ -285,6 +292,6 @@ a{
     border: 2px solid black;
     padding: 2%;
     background-repeat: no-repeat;
-    background size: 100% 101%
+    background-size: 100% 101%;
   }
 }/* END MEDIA QUERY */
