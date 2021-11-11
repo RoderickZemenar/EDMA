@@ -1,63 +1,290 @@
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Electronic Dance Music Assistance </title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+html{
+  background-color: #D8CCBB;
+  scroll-behavior: smooth;
+}
 
-  <body>
-  <a href="index.html">
-  <img id="logo" src="EDMA type.png" alt="EDMA"
-  align=left width="auto" height= "60" position=fixed>
-  </a>
+h1{
+  width:auto;
+  height: auto;
+  text-align: center;
+  font-family: "rumutocu";
+  src:url(rumutocu);
+}
 
-  <div class="topnav">
-     <a href="Contact.html"> Contact</a>
-     <a href="about.html"> About</a>
-     <a href="index.html"> Home</a>
-   </div>
+h2{
+  width: auto;
+  height: auto;
+  text-align: center;
+}
 
-   <div>
-     <h1>FEELING LIKE SHIT? </h1>
-     <h2> Well, lift your spirits with Electronic Dance Music/EDM!!! </h2>
-   </div>
+a{
+  font-family: "vermin vibes 2 edm xtc";
+  src: url(verminvibes2edmxtxc.Lxx5.tff)
+}
 
-     <div class="flex-container">
+.topnav {
+  overflow: hidden;
+}
 
-       <a class="one"img scr="HouseMusic.png" href=https://open.spotify.com/playlist/6AzCASXpbvX5o3F8yaj1y0?si=f68fadc97b3b48da><div>
-       </div></a>
+.topnav a {
+  float: right;
+  color: #29461F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-       <a class="two" img scr="hardcore.jpg" href=https://open.spotify.com/playlist/17TwTPITOWP0Ep9joASCrm?si=2ecc4b5c15b9418e><div>
-       </div></a>
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+  border-top: .1px;
+  border-bottom:.1px;
+}
 
-       <a class="three" img scr="Drum&BassLogo.jpg" href=https://open.spotify.com/playlist/18b0DBiqVtRuj34OKPCgj6?si=c60f638ecd284a19><div>
-       </div></a>
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 
-        <a class="four" img scr="phaseone.jpg" href=https://open.spotify.com/playlist/0ZYFF9tPuPq2YNMRNhQZJt?si=be7a07f8f54a44b2><div>
-       </div></a>
+.flex-container{
+  display:flex;
+  flex-wrap: wrap;
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 100px;
+}
 
-       <a class="five" img scr="Trap.png" href=https://open.spotify.com/playlist/2UZjomZ9r1O9gWyT3BLOZC?si=09a7e28c15b14d17><div>
-       </div></a>
+.flex-container a{
+  flex-grow: 10;
+  flex-shrink: 1;
+  width: 170px;
+  height:150px;
+}
 
-       <a class="six" img scr="Glitchhop.png" href=https://open.spotify.com/playlist/3Cy2LdkFDxcwVd6wMWsGll?si=282e2dee03164e2b><div>
-       </div></a>
+.flex-container div{
+  flex-grow:10;
+  flex-shrink:1;
+  width:170px;
+  height:150px;
+}
 
-       <a class="seven" img scr="Doctoroctoroc.jpg" href=https://open.spotify.com/playlist/1LFNDgI96e297dxed2dZZa?si=c696f50da94b4f84><div>
-       </div></a>
+.flex-container p{
+  text-align:center;
+  padding:10px;
+  line-height:10px;
+  vertical-align: middle;
+}
 
-       <a class="eight" img scr="FutureBass.jpg" href=https://open.spotify.com/playlist/0HL0ITC4buCPYJaJHqwbMm?si=8d124c3e24eb4b74><div>
-       </div></a>
+/*one is house*/
 
-       <a class="nine" img scr="Psytrancelogo.png" href=https://open.spotify.com/playlist/4rmUSS4GQxpHjuZPf6eiSz?si=76222351a3464c5d><div>
-       </div></a>
+.one {
+    background-image: url("HouseMusic.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 2%;
+}
 
-       <a class="ten" img scr="ambient.jpg" href=https://open.spotify.com/playlist/6CIyPj34GTpAkNwoWToLNT?si=c01ebce0a3104356><div>
-       </div></a>
-     </div>
+/*two is Happy Hardcore*/
 
-      <div class="footer">
-       <p>Electronic Dance Music Assistance ©2021</p>
-     </div>
-  </body>
-</html>
+.two{
+  background-image: url("hardcore.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 107%;
+}
+
+/*three is Drum and Bass*/
+
+.three{
+  background-image: url("Drum&BassLogo.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 102% 101%;
+}
+
+/*four is Dubstep*/
+
+.four{
+  background-image: url("phaseone.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+/*Five is Trap*/
+
+.five{
+  background-image: url("Trap.png");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
+}
+
+/*six is Glitch-hop*/
+
+.six{
+  background-image: url("Glitchhop.png");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
+}
+
+/*seven is Chiptune*/
+
+.seven{
+  background-image:url("Doctoroctoroc.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
+}
+
+/*eight is Future Bass*/
+
+.eight{
+  background-image: url("FutureBass.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+/*nine is Psytrance*/
+
+.nine{
+  background-image: url("Psytrancelogo.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.ten{
+  background-image: url("ambient.jpg");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background size: 100% 101%
+}
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d4a057;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+/* Start Media Query */
+@media only screen and (min-width:600){
+  nav{
+
+  }
+  .one {
+      background-image: url("HouseMusic.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      border: 2px solid black;
+      padding: 2%;
+  }
+
+  /*two is Harcore*/
+
+  .two{
+    background-image: url("hardcore.jpg");
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 100% 107%;
+  }
+
+  /*three is Drum and Bass*/
+
+  .three{
+    background-image: url("Drum&BassLogo.jpg");
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 102% 101%;
+  }
+
+  /*four is Dubstep*/
+
+  .four{
+    background-image: url("phaseone.jpg");
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 100% 101%;
+  }
+
+  /*Five is Trap*/
+
+  .five{
+    background-image: url("Trap.png");
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 101% 101%;
+  }
+
+  /*six is Glitch-hop*/
+
+  .six{
+    background-image: url("Glitchhop.png");
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 101% 101%;
+  }
+
+  /*seven is Chiptune*/
+
+  .seven{
+    background-image:url("Doctoroctoroc.jpg");
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 101% 101%;
+  }
+
+  /*eight is Future Bass*/
+
+  .eight{
+    background-image: url("FutureBass.jpg");
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 100% 101%;
+  }
+
+  /*nine is Psytrance*/
+
+  .nine{
+    background-image: url("Psytrancelogo.png");
+    background-color: black;
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: 100% 101%;
+  }
+  .ten{
+    background-image: url("ambient.jpg");
+    background-color: black;
+    border: 2px solid black;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background size: 100% 101%
+  }
+}/* END MEDIA QUERY */
