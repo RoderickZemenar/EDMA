@@ -1,3 +1,5 @@
+/* All images that are used on this site are from Google images.*/
+
 html{
   background-color: #D8CCBB;
 }
@@ -56,6 +58,7 @@ a{
   display:flex;
   flex-wrap: wrap;
   width:80%;
+  margin-top: auto;
   margin-right:auto;
   margin-left:auto;
   margin-bottom: 100px;
@@ -82,69 +85,52 @@ a{
   vertical-align: middle;
 }
 
-/*one is house*/
+/*The Genres for Each Image
+1. Ambient
+2. Chillout
+3. Chiptune
+4. Complextro
+5. DownTempo
+6. Drum and Bass
+7. Dubstep
+8. Electro Swing
+9. Electronica
+10. Eurobeat
+11. Future Bass
+12. Glitch-Hop
+13. Happy Hardcore
+14. Hard Bass
+15. House
+16. IDM
+17. Jersey Club
+18. Lo-Fi
+19. Melborune Bounce
+20. Moombahton
+21. New Wave
+22. Psytrance
+23. Riddim
+24. Synth-Wave
+25. Trap */
 
 .one {
-    background-image: url("HouseMusic.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-    padding: 2%;
-}
-
-/*two is Happy Hardcore*/
-
-.two{
-  background-image: url("hardcore.jpg");
-  border: 2px solid black;
-  padding: 2%;
-  background-repeat: no-repeat;
-  background-size: 100% 107%;
-}
-
-/*three is Drum and Bass*/
-
-.three{
-  background-image: url("Drum&BassLogo.jpg");
-  border: 2px solid black;
-  padding: 2%;
-  background-repeat: no-repeat;
-  background-size: 102% 101%;
-}
-
-/*four is Dubstep*/
-
-.four{
-  background-image: url("phaseone.jpg");
+  background-image: url("ambient.jpg");
+  background-color: black;
   border: 2px solid black;
   padding: 2%;
   background-repeat: no-repeat;
   background-size: 100% 101%;
 }
 
-/*Five is Trap*/
-
-.five{
-  background-image: url("Trap.png");
+.two{
+  background-image: url("Chillout.png");
+  background-color: black;
   border: 2px solid black;
   padding: 2%;
   background-repeat: no-repeat;
-  background-size: 101% 101%;
+  background-size: 100% 101%;
 }
 
-/*six is Glitch-hop*/
-
-.six{
-  background-image: url("Glitchhop.png");
-  border: 2px solid black;
-  padding: 2%;
-  background-repeat: no-repeat;
-  background-size: 101% 101%;
-}
-
-/*seven is Chiptune*/
-
-.seven{
+.three{
   background-image:url("Doctoroctoroc.jpg");
   border: 2px solid black;
   padding: 2%;
@@ -152,19 +138,164 @@ a{
   background-size: 101% 101%;
 }
 
-/*eight is Future Bass*/
-
-.eight{
-  background-image: url("FutureBass.jpg");
+.four{
+  background-image: url("Complextro.jpg");
+  background-color: black;
   border: 2px solid black;
   padding: 2%;
   background-repeat: no-repeat;
   background-size: 100% 101%;
 }
 
-/*nine is Psytrance*/
+.five{
+  background-image: url("Downtempo.jpg");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.six{
+  background-image: url("Drum&BassLogo.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 102% 101%;
+}
+
+.seven{
+  background-image: url("phaseone.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.eight{
+  background-image: url("ElectroSwing.jpg");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
 
 .nine{
+  background-image: url("Electronica.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 99% 24%;
+}
+
+.ten{
+  background-image: url("InitialD.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.eleven{
+  background-image: url("FutureBass.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 104% 101%;
+}
+
+.twelve{
+  background-image: url("Glitchhop.png");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
+}
+
+.thirteen{
+  background-image: url("hardcore.jpg");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 107%;
+}
+
+.fourteen{
+  background-image: url("HardBass.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.fifteen{
+  background-image: url("HouseMusic.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  padding: 2%;
+}
+
+.sixteen{
+  background-image: url("IDM.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.seventeen{
+  background-image: url("JerseyClub.jpg");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.eighteen{
+  background-image: url("LoFi.jpg");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 102%;
+}
+
+.nineteen{
+  background-image: url("MelboruneBounce.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.twenty{
+  background-image: url("Moombahton.png");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.twentyone{
+  background-image: url("Newwave.jpg");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+.twentytwo{
   background-image: url("Psytrancelogo.png");
   background-color: black;
   border: 2px solid black;
@@ -173,16 +304,32 @@ a{
   background-size: 100% 101%;
 }
 
-/*ten is Ambient*/
+.twentythree{
+  background-image: url("Riddim.jpg");
+  background-color: black;
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 98% 47%;
+}
 
-.ten{
-  background-image: url("ambient.jpg");
+.twentyfour{
+  background-image: url("Synthwave.jpg");
   background-color: black;
   border: 2px solid black;
   padding: 2%;
   background-repeat: no-repeat;
   background-size: 100% 101%;
 }
+
+.twentyfive{
+  background-image: url("Trap.png");
+  border: 2px solid black;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: 101% 101%;
+}
+
 .footer {
   position: inherit;
   left: 0;
@@ -197,101 +344,4 @@ a{
 @media only screen and (min-width:600){
   nav{
 
-  }
-  .one {
-      background-image: url("HouseMusic.png");
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      border: 2px solid black;
-      padding: 2%;
-  }
-
-  /*two is Harcore*/
-
-  .two{
-    background-image: url("hardcore.jpg");
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 100% 107%;
-  }
-
-  /*three is Drum and Bass*/
-
-  .three{
-    background-image: url("Drum&BassLogo.jpg");
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 102% 101%;
-  }
-
-  /*four is Dubstep*/
-
-  .four{
-    background-image: url("phaseone.jpg");
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 100% 101%;
-  }
-
-  /*Five is Trap*/
-
-  .five{
-    background-image: url("Trap.png");
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 101% 101%;
-  }
-
-  /*six is Glitch-hop*/
-
-  .six{
-    background-image: url("Glitchhop.png");
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 101% 101%;
-  }
-
-  /*seven is Chiptune*/
-
-  .seven{
-    background-image:url("Doctoroctoroc.jpg");
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 101% 101%;
-  }
-
-  /*eight is Future Bass*/
-
-  .eight{
-    background-image: url("FutureBass.jpg");
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 100% 101%;
-  }
-
-  /*nine is Psytrance*/
-
-  .nine{
-    background-image: url("Psytrancelogo.png");
-    background-color: black;
-    border: 2px solid black;
-    adding: 2%;
-    background-repeat: no-repeat;
-    background-size: 100% 101%;
-  }
-  .ten{
-    background-image: url("ambient.jpg");
-    background-color: black;
-    border: 2px solid black;
-    padding: 2%;
-    background-repeat: no-repeat;
-    background-size: 100% 101%;
-  }
 }/* END MEDIA QUERY */
