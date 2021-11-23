@@ -4,6 +4,29 @@ html{
   background-color: #D8CCBB;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#logo{
+  padding: 15px;
+  float: left;
+  height:60px;
+  position: fixed;
+}
+
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d4a057;
+  text-align: center;
+  padding: 14px 0px;
+  font-size: 17px;
+}
+
 h1{
   width:auto;
   height: auto;
@@ -39,7 +62,7 @@ a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 34px;
+  font-size: 36px;
 }
 
 .topnav a:hover{
@@ -62,6 +85,7 @@ a{
   margin-right:auto;
   margin-left:auto;
   margin-bottom: 100px;
+  max-width: 1200px;
 }
 
 .flex-container a{
@@ -330,17 +354,6 @@ a{
   background-size: 101% 101%;
 }
 
-.footer {
-  position: inherit;
-  left: 0;
-  bottom: 0;
-  width: 98%;
-  background-color: #d4a057;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
-}
-
 input[type=text] {
   width: 98%;
   padding: 12px;
@@ -349,6 +362,7 @@ input[type=text] {
   box-sizing: border-box;
   margin: auto;
   resize: vertical;
+  max-width: 1000;
 }
 
 input[type=submit] {
@@ -363,34 +377,68 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.alert {
-  padding: 18px;
-  background-color: #f44336;
-  color: white;
-}
-
-/* .closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 18px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.closebtn:hover {
-  color: black;
-} */
-
 .container {
   margin: auto;
   border-radius: 4px;
-  background-color: #D8CCBB;
   padding: 20px;
+  max-width: 1000px;
+  border: 2px #D8CCBB;
 }
 /* Start Media Query */
 @media only screen and (min-width:600){
-  nav{
+    .topnav {
+      overflow: hidden;
+    }
+
+    .topnav a {
+      float: right;
+      color: #29461F;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover{
+      background-color: #ddd;
+      color: black;
+      border-top: .1px;
+      border-bottom:.1px;
+    }
+
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    .flex-container{
+      display:flex;
+      flex-wrap: wrap;
+      width:80%;
+      margin-top: auto;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom: 100px;
+    }
+
+    .flex-container a{
+      flex-grow: 10;
+      flex-shrink: 1;
+      width: 170px;
+      height:150px;
+    }
+
+    .flex-container div{
+      flex-grow:10;
+      flex-shrink:1;
+      width:170px;
+      height:150px;
+    }
+
+    .flex-container p{
+      text-align:center;
+      padding:10px;
+      line-height:10px;
+      vertical-align: middle;
+    }
 }/* END MEDIA QUERY */
